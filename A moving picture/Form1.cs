@@ -41,5 +41,25 @@ namespace A_moving_picture
         {
             pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 10);
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 10, pictureBox1.Location.Y - 10);
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 10, pictureBox1.Location.Y + 10);
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X - 10, pictureBox1.Location.Y + 10);
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X - 10, pictureBox1.Location.Y - 10);
+        }
     }
 }
